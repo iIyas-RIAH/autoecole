@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Auto-Ecole ALAMAL</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div class="header">
+			<div class="header__texture"></div>
+				<div class="header__mask">
+					<svg width="100%" height=100% viewBox="0 0 100 100" preserveAspectRatio="none">
+						<path d="M0 100 L 0 0 C 25 100 75 100 100 0 L 100 100" fill="#fff"></path>
+					</svg>
+				</div>
+			<div class="container">
+				<div class="header__navbar">
+					<div class="header__navbar--logo">
+						<h1 class="header__navbar--logo-title">Auto-Ecole ALAMAL</h1>
+					</div>
+					<div class="header__navbar--menu">
+						<a href="#" class="header__navbar--menu-link">Accueil</a>
+						<a href="conn-inscri/connexion.html#conn" class="header__navbar--menu-link">Connexion</a>
+						<a href="conn-inscri/inscription.html#inscr" class="header__navbar--menu-link">Inscription</a>
+					</div>
+				</div>
+				<div class="header__slogan">
+					<h1 class="header__slogan-title">UNE EXPERIENCE UNIQUE</h1>
+				</div>
+			</div>
+		</div>
+		<div class="article">
+			<div class="article__texte" style="background-color: rgb(216, 212, 213);">
+				Chers Internautes,<br>
+				Nous sommes heureux de vous accueillir sur le site officiel de l’Auto-Ecole ALAMAL et vous remercie de l'intérêt que vous lui portez.<br>
+				Notre expérience nous permet de suivre nos candidats jusqu’à la réussite.<br>
+				<ul>
+					<li>
+						Permis toutes catégories. 
+					</li>
+					<li>
+						Prix attractifs.
+					</li>
+					<li>
+						Paiement différé.
+					</li>
+					<li>
+						Possibilité cours de soir.
+					</li>
+					<li>
+						Moniteurs compétents.
+					</li>
+					<li>
+						Taux de réussite élevé.
+					</li>
+				</ul>			 
+			</div>
+		</div>
+		<div class="article" style="padding-left: 13.32%; padding-bottom: 70px">
+			<div class="article__texte" style="width: 40% !important; background-color: rgb(216, 212, 213); line-height: 35px;">
+				<span class="ag-info">Agence<br></span>
+				E-mail: contact@autoe-ALAMAL.com<br>
+				Numéro de téléphone: 08 08 15 16 17<br>
+				Adresse postale: Boulevard Hassan II, Taza VN, TAZA.<br> 
+			</div>
+			<div class="article__texte" style="margin-top: -40px;">
+				<iframe src="https://www.google.com/maps/d/u/0/embed?mid=1q4HW4SgyG_Hq0v6RkYmMLHnfeFXRrm9m" width="78%" height="285px"></iframe>	 
+			</div>
+		</div>
+		<div class="container">
+			<div class="form">
+				<div class="form__title">Contactez-nous</div>
+				<form class="form__inner" action="contactus.php" method="post" accept-charset="utf-8">
+					<div class="form__line">
+						<div class="form__block">
+							<h4 class="form__label">Nom</h4>
+							<input class="form__input" type="text" name="nom" required>
+						</div>
+						<div class="form__block">
+							<h4 class="form__label">Adresse</h4>
+							<input class="form__input" type="text" name="adresse" required>
+						</div>
+					</div>
+					<div class="form__line">
+						<div class="form__block">
+							<h4 class="form__label">Email</h4>
+							<input class="form__input" type="text" name="email" required>
+						</div>
+						<div class="form__block">
+							<h4 class="form__label">Téléphone</h4>
+							<input class="form__input" type="text" name="mobile" pattern="0[5-7][0-9]{8}" title="0{5-6-7}{0-9}" required>
+						</div>
+					</div>
+					<div class="form__line">
+						<div class="form__block"style="margin-left: -264px;">
+							<h4 class="form__label">Objet</h4>
+							<input class="form__input" type="text" name="objet" style="width: 211% !important;" required>
+						</div>
+					</div>
+					<div class="form__line" >
+						<div class="form__block" style="margin-left: -264px;">
+							<h4 class="form__label">Message</h4>
+							<textarea class="form__input" name="message" style="height: 100px !important; width: 211% !important;"></textarea>
+						</div>
+					</div>
+					<input type="submit" class="btn1" name='submit' value="Soumettre">
+				</form>
+			 </div>
+		</div>
+		<div class="footer">
+        	<p>Auto-Ecole ALAMAL © Stage 2020</p>
+    	</div>
+	</body>
+</html>
